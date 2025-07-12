@@ -9,12 +9,42 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Fonts\Kameron-VariableFont_wght.ttf" />
-    <None Remove="img\Logo.png" />
+    <None Remove="Assets\Fonts\Kameron-Bold.ttf" />
+    <None Remove="Assets\Fonts\Kameron-Medium.ttf" />
+    <None Remove="Assets\Fonts\Kameron-Regular.ttf" />
+    <None Remove="Assets\Fonts\Kameron-SemiBold.ttf" />
+    <None Remove="Assets\Fonts\Kameron-VariableFont_wght.ttf" />
+    <None Remove="Assets\img\Calendar.png" />
+    <None Remove="Assets\img\Dumbell.png" />
+    <None Remove="Assets\img\Export.png" />
+    <None Remove="Assets\img\Logo.png" />
+    <None Remove="Assets\img\Logout.png" />
+    <None Remove="Assets\img\Setting.png" />
+    <None Remove="Assets\img\Task.png" />
+    <None Remove="Assets\img\User.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="img\Logo.png" />
+    <Resource Include="Assets\Fonts\Kameron-Bold.ttf" />
+    <Resource Include="Assets\Fonts\Kameron-Medium.ttf" />
+    <Resource Include="Assets\Fonts\Kameron-Regular.ttf" />
+    <Resource Include="Assets\Fonts\Kameron-SemiBold.ttf" />
+    <Resource Include="Assets\img\Calendar.png" />
+    <Resource Include="Assets\img\Dumbell.png" />
+    <Resource Include="Assets\img\Export.png" />
+    <Resource Include="Assets\img\Logo.png" />
+    <Resource Include="Assets\img\Logout.png" />
+    <Resource Include="Assets\img\Setting.png" />
+    <Resource Include="Assets\img\Task.png" />
+    <Resource Include="Assets\img\User.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
   </ItemGroup>
 
 </Project>
